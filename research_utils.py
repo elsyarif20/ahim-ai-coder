@@ -4,9 +4,9 @@ from docx import Document
 from fpdf import FPDF
 from gtts import gTTS
 import xlsxwriter
-import PyPDF2
 
 def search_web(query):
+    """Pencarian Real-time (Fitur 2)"""
     try:
         with DDGS() as ddgs:
             results = [r for r in ddgs.text(query, max_results=5)]
@@ -14,6 +14,7 @@ def search_web(query):
     except: return ""
 
 def parse_markdown_table(text):
+    """Deteksi Tabel Otomatis (Fitur 6)"""
     try:
         lines = [l.strip() for l in text.split('\n') if '|' in l]
         if len(lines) < 3: return None
@@ -23,6 +24,7 @@ def parse_markdown_table(text):
     except: return None
 
 def export_excel_pro(df):
+    """Export Excel Ber-border Profesional (Fitur 5)"""
     output = io.BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df.to_excel(writer, index=False, sheet_name='Ahim_Research')
@@ -39,6 +41,7 @@ def export_excel_pro(df):
     return output.getvalue()
 
 def export_docx_pro(text):
+    """Export Word Tanpa Simbol Markdown (Fitur 5)"""
     doc = Document()
     doc.add_heading('Laporan Penelitian Ahim Devpad', 0)
     clean = re.sub(r'[\*\#\`]', '', text)
@@ -48,6 +51,7 @@ def export_docx_pro(text):
     return bio.getvalue()
 
 def export_pdf_pro(text):
+    """Export PDF Bersih (Fitur 5)"""
     pdf = FPDF()
     pdf.add_page(); pdf.set_font("Arial", size=11)
     clean = re.sub(r'[\*\#\`]', '', text)
@@ -55,6 +59,7 @@ def export_pdf_pro(text):
     return bytes(pdf.output())
 
 def speak_text(text):
+    """Voice System TTS (Fitur 8)"""
     try:
         clean = re.sub(r'[\*\#\`]', '', text)
         tts = gTTS(text=clean, lang='id')
