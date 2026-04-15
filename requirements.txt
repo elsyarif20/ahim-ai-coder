@@ -1,1 +1,11 @@
-# --- Framework Utama ---streamlitsupabasegroq# --- Statistik & Analisis Data (Level SPSS) ---pandasnumpyscipystatsmodels# --- Pengolahan Dokumen & Ekspor ---python-docxfpdf2openpyxlxlsxwriterPyPDF2# --- AI Vision & Gambar (OCR) ---pytesseractpillowpdf2docx# --- Audio & Voice (TTS) ---gTTS# --- Visualisasi Grafik ---plotly# --- Utilitas ---requestspython-dotenv
+streamlit
+groq
+supabase
+pandas
+scipy
+statsmodels
+duckduckgo_search
+xlsxwriter
+python-docx
+fpdf2
+gTTS
