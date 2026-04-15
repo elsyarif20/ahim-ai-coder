@@ -2,6 +2,7 @@ streamlit
 groq
 supabase
 pandas
+numpy
 scipy
 statsmodels
 duckduckgo_search
@@ -9,3 +10,4 @@ xlsxwriter
 python-docx
 fpdf2
 gTTS
+PyPDF2
