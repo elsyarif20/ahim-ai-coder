@@ -1,0 +1,34 @@
+{
+  "referensi_utama": {
+    "perpustakaan_digital": [
+      {"nama": "Archive.org", "url": "https://archive.org", "tag": "Arsip Global"},
+      {"nama": "Waqfeya", "url": "https://waqfeya.net", "tag": "Kitab PDF"},
+      {"nama": "Shamela", "url": "https://shamela.ws", "tag": "Perpustakaan Digital"},
+      {"nama": "Scribd", "url": "https://www.scribd.com", "tag": "Dokumen/Jurnal"},
+      {"nama": "Almeshkat", "url": "http://www.almeshkat.net", "tag": "Kitab/Buku"}
+    ],
+    "berita_nasional": [
+      {"nama": "Kompas", "url": "https://www.kompas.com", "tag": "Umum"},
+      {"nama": "Republika", "url": "https://republika.co.id", "tag": "Nasional/Islami"},
+      {"nama": "Detikcom", "url": "https://www.detik.com", "tag": "Tercepat"},
+      {"nama": "Antara News", "url": "https://www.antaranews.com", "tag": "Resmi/Valid"},
+      {"nama": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com", "tag": "Ekonomi"}
+    ],
+    "akademik_jurnal": [
+      {"nama": "Google Scholar", "url": "https://scholar.google.com", "tag": "Riset"},
+      {"nama": "DOAJ", "url": "https://doaj.org", "tag": "Jurnal Terbuka"},
+      {"nama": "ResearchGate", "url": "https://www.researchgate.net", "tag": "Komunitas Peneliti"}
+    ],
+    "hiburan_sastra": [
+      {"nama": "IMDb", "url": "https://www.imdb.com", "tag": "Film"},
+      {"nama": "Project Gutenberg", "url": "https://www.gutenberg.org", "tag": "Novel/Sastra"},
+      {"nama": "Irama Nusantara", "url": "https://www.iramanusantara.org", "tag": "Musik Indo"},
+      {"nama": "Poetry Foundation", "url": "https://www.poetryfoundation.org", "tag": "Puisi Dunia"}
+    ],
+    "belanja_gadget": [
+      {"nama": "Tokopedia", "url": "https://www.tokopedia.com", "tag": "Belanja"},
+      {"nama": "Shopee", "url": "https://shopee.co.id", "tag": "Belanja"},
+      {"nama": "GSMArena", "url": "https://www.gsmarena.com", "tag": "Spek Gadget"}
+    ]
+  }
+}

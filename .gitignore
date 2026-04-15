@@ -1,11 +1,6 @@
-# Folder environment
+# Mengabaikan virtual environment
 env/
 venv/
-.env
 
-# Folder cache python
-__pycache__/
-*.pyc
-
-# Folder Streamlit
+# Mengabaikan folder secrets/konfigurasi lokal
 .streamlit/
